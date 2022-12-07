@@ -1,0 +1,19 @@
+>> Memo 
+
+    -Memoriza un componente
+    -Vuelve a memorizar al cambiar las props
+    -Evita re-renders
+
+>>UseMemo
+
+    -Memoriza un valor calculado
+    -Para propiedades computadas
+    -Para procesos pesados 
+
+>>UseCallback
+
+    -Memoriza una funcion, para no vovler a definirla en cada renders
+    -Usarlo siempre que se pase una funcion como argumento de un efecto 
+    -Usarlo siempre que se pase una funcion por props a un componente memorizado
+
+    
